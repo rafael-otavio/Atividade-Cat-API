@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Popins', sans-serif;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 100%;
+    display: flex;
+}
+#racaInput{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+#buscarBtn{
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#galeria-container{
+    column-count: 5;
+}
+
+#galeria-container img {
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .7s;
+}
+#galeria-container img:hover{
+    transform: scale(1.07);
+}
